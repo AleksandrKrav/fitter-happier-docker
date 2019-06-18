@@ -34,6 +34,9 @@ jobs:
 
   publish-image:
     machine: true
+    environment:
+     DOCKER_HUB_USER_ID: alexkrav23
+     DOCKER_HUB_PWD: savemymoney2 
     steps:
       - checkout
 
