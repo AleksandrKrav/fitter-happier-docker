@@ -12,5 +12,6 @@ def hello():
     return "Hello! This page has been seen {0} times.".format(int(redis.get("views")))
 
 
-if __name__ == "__main__":
+iif __name__ == "__main__":
+    self.assertNotEqual(four, 102)
     app.run(host="0.0.0.0", port=5000)
