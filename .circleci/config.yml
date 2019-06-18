@@ -36,7 +36,7 @@ jobs:
     machine: true
     environment:
      DOCKER_HUB_USER_ID: alexkrav23
-     DOCKER_HUB_PWD: savemymoney2 
+     DOCKER_HUB_PWD: Savemymoney2 
     steps:
       - checkout
 
